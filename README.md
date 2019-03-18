@@ -1,4 +1,4 @@
-התקנת Xshell , Xftp 
+<h2>Xshell , Xftp <span>התקנת</span></h2> 
 במסגרת הקורס אנו נצטרך לעבוד עם פרוטוקול ssh , ftp ע"מ שנוכל לעבוד בקלות נצטרך להוריד 2 תכניות שימושיות מאוד (חינם לסטודנטים).
 
 •	כנסו לקישור הבא:  https://www.netsarang.com/en/free-for-home-school/
@@ -16,8 +16,9 @@
 5.	הזינו שם משתמש וסיסמא רלוונטיים 
 6.	לחצו connect
  
-
- 
+<img src='img1.png'>
+<br />
+<img src='img2.png'>
 
 
 
