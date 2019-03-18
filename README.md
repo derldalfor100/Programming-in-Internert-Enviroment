@@ -1,20 +1,27 @@
-<h2>Xshell , Xftp <span>התקנת</span></h2> 
-במסגרת הקורס אנו נצטרך לעבוד עם פרוטוקול ssh , ftp ע"מ שנוכל לעבוד בקלות נצטרך להוריד 2 תכניות שימושיות מאוד (חינם לסטודנטים).
+<h2 style='text-align: right'>Xshell , Xftp <span>התקנת</span></h2> 
+<p style='text-align: right'>
+  .<span>ע"מ שנוכל לעבוד בקלות נצטרך להוריד 2 תכניות שימושיות מאוד (חינם לסטודנטים)</span><span> ssh , ftp </span><span>במסגרת הקורס אנו נצטרך לעבוד עם פרוטוקול </span>
+</p>
 
-•	כנסו לקישור הבא:  https://www.netsarang.com/en/free-for-home-school/
-הכניסו שם ואימייל רלוונטי (שימו לב עליכם להכניס אימייל פעיל היות וקישורי ההורדה נשלחים למייל שתכניסו.)
-•	סמנו את התיבה "Both"
-•	לחצו על הכפתור Download
+<ul style='text-align: right; list-style-position: inside; direction: rtl;'>
+  <li>כנסו לקישור הבא:  <a href='https://www.netsarang.com/en/free-for-home-school/'>https://www.netsarang.com/en/free-for-home-school/</a></li>
+  <li>סמנו את התיבה "Both"</li>
+  <li>לחצו על הכפתור Download</li>
+</ul>
+<p style='text-align: right; direction: rtl;'>
+  קישור להורדת שני התוכנות יישלח למייל שהזנתם, עקבו אחר ההתקנה והתקינו את שני התוכנות.
+</p>
 
-קישור להורדת שני התוכנות יישלח למייל שהזנתם, עקבו אחר ההתקנה והתקינו את שני התוכנות.
-
+<ol style='text-align: right; list-style-position: inside; direction: rtl;'>
 ע"מ ליצור חיבור ssh  חדש:
-1.	 לחצו על כפתור ה + בצד ימין 
-2.	תנו שם לחיבור
-3.	הזינו את כתובת הIP אליה אתם רוצים להתחבר (יכול להיות מספרים או URL)
-4.	עברו ללשונית Authentication מצד ימין
-5.	הזינו שם משתמש וסיסמא רלוונטיים 
-6.	לחצו connect
+  <li>לחצו על כפתור ה + בצד ימין </li>
+  <li>תנו שם לחיבור</li>
+  <li>הזינו את כתובת הIP אליה אתם רוצים להתחבר (יכול להיות מספרים או URL)</li>
+  <li>עברו ללשונית Authentication מצד ימין</li>
+  <li>הזינו שם משתמש וסיסמא רלוונטיים</li>
+  <li>לחצו connect</li>
+</ol>
+
  
 <img src='img1.png'>
 <br />
