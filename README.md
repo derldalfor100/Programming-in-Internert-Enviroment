@@ -1,3 +1,11 @@
+---
+title: "Habits"
+output:
+  html_document:
+    theme: null
+    highlight: null
+    css: styles.css
+---
 <h2 style='text-align: right'>Xshell , Xftp <span>התקנת</span></h2> 
 <p style='text-align: right'>
   .<span>ע"מ שנוכל לעבוד בקלות נצטרך להוריד 2 תכניות שימושיות מאוד (חינם לסטודנטים)</span><span> ssh , ftp </span><span>במסגרת הקורס אנו נצטרך לעבוד עם פרוטוקול </span>
