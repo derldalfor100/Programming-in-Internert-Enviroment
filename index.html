@@ -1,0 +1,34 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dodstibn</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        html,
+        body,
+        iframe {
+            height: 100%;
+        }
+        body {
+            background-color: antiquewhite;
+        }
+        iframe:nth-of-type(1) {
+            width: 120px;
+        }
+        iframe:nth-of-type(2) {
+            width: calc(100% - 124px);
+        }
+    </style>
+</head>
+
+<body>
+    <iframe src="menu.html" frameborder="0"></iframe>
+    <iframe name='showframe' src="info.html" frameborder="0"></iframe>
+</body>
+
+</html>
