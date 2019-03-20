@@ -9,15 +9,30 @@
         body {
             background-color: rgb(206, 255, 71);
         }
+
+        li {
+            list-style: none;
+        }
+        li:before {
+            content: '';
+            display: inline-block;
+            height: 2rem;
+            width: 2rem;
+            margin-right: 0.5rem;
+            background-size: contain;
+            background-image: url('https://66.media.tumblr.com/avatar_9b0dd609e157_128.pnj');
+        }
     </style>
 </head>
 
 <body>
-    <a href="https://www.ynet.co.il" target="_blank">Ynet</a>
-    <a href="https://www.mako.co.il" target="_blank">Mako</a>
-    <a href="https://www.walla.co.il" target="_blank">Walla</a>
-    <a href="https://www.yahoo.com" target="_blank">Yahoo</a>
-    <a href="https://www.google.com" target="_blank">Google</a>
+    <ul>
+        <li><a href="https://www.ynet.co.il" >Ynet</a></li>
+        <li><a href="https://www.mako.co.il" >Mako</a></li>
+        <li><a href="https://www.walla.co.il" >Walla</a></li>
+        <li><a href="https://www.sport5.co.il" >Sport5</a></li>
+        <li><a href="https://www.wikipedia.org" >Wikipedia</a></li>
+    </ul>
 </body>
 
 </html>
