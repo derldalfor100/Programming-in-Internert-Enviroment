@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PHP Cookie</title>
+</head>
+
+<body>
+    <form action="cookie.php" method="GET">
+        <label for="guessnumber">Guess a number between 1 to 10:</label>
+        <input required type="text" name="guessnumber" id="guessnumber" placeholder="5" size="2" minlength="1" maxlength="2" />
+        <br />
+        <input type="submit" onclick="validate(event)">
+        <br />
+        <p id="err"></p>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
