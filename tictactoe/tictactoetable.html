@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        #wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 80%;
+        }
+
+        header {
+            background-color: beige;
+            margin: 0;
+        }
+
+        header>p {
+            margin-bottom: 0;
+        }
+
+        #msg {
+            display: none;
+        }
+
+        header>div {
+            margin-top: 10px;
+        }
+
+        header button {
+            margin-bottom: 6px;
+        }
+
+        #wrapper .container {
+            background-color: aquamarine;
+            display: flex;
+            width: 80%;
+            height: 80%;
+        }
+
+        .row {
+            height: 33.33%;
+        }
+
+        tr.row {
+            width: 100%;
+        }
+
+        .col,
+        td {
+            height: 95%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .col>button {
+            height: 90%;
+            width: 80%;
+        }
+
+        .col>button:disabled {
+            cursor: not-allowed;
+        }
+
+        .col img {
+            width: 90%;
+            height: 90%;
+            object-fit: contain;
+        }
+
+        tbody {
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+
+        @media only screen and (max-width: 400px) {
+            #wrapper .container {
+                width: 60%;
+                height: 60%;
+                min-width: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h2 class="row justify-content-center">X Mix Drix</h2>
+        <p id="msg" class="row justify-content-center text-info">Player X won</p>
+        <div class="row justify-content-center"><button id="start" class="btn btn-primary" onclick="new Game()">Start Game</button></div>
+        </td>
+    </header>
+    <div id="wrapper">
+        <table class="container">
+            <tbody>
+                <tr class="row">
+                    <td>
+                        <div class="col"><button id="1" disabled ></div>
+                    </td>
+                    <td>
+                        <div class="col"><button id="4" disabled ></div>
+                    </td>
+                    <td>
+                        <div class="col"><button id="7" disabled ></div>
+                    </td>
+                </tr>
+                <tr class="row">
+                    <td>
+                        <div class="col"><button id="2" disabled ></button></div>
+                    </td>
+                    <td>
+                        <div class="col"><button id="5" disabled ></button></div>
+                    </td>
+                    <td>
+                        <div class="col"><button id="8" disabled ></button></div>
+                    </td>
+                </tr>
+                <tr class="row">
+                    <td>
+                        <div class="col"><button id="3" disabled ></button></div>
+                    </td>
+                    <td>
+                        <div class="col"><button id="6" disabled ></button></div>
+                    </td>
+                    <td>
+                        <div class="col"><button id="9" disabled ></button></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

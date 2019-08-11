@@ -1,0 +1,11 @@
+body {
+    background-image: url("http://www.egrafis.com/images/blue-and-white-wallpaper-1600x1200-44336.jpg");
+}
+
+#firstLink {
+    color: rgb(105, 204, 23);
+}
+
+#firstLink:hover {
+    color: #ffd8a6;
+}
